@@ -1,5 +1,5 @@
 FROM alpine:3.15
-RUN apk --no-cache add alpine-sdk coreutils cmake sudo \
+RUN apk --no-cache add alpine-sdk coreutils cmake python3 sudo \
   && adduser -G abuild -g "Alpine Package Builder" -s /bin/ash -D builder \
   && echo "builder ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers \
   && mkdir /packages \
