@@ -1,0 +1,9 @@
+.git
+*Dockerfile*
+*docker-compose*
+# comment
+*/temp*
+*/*/temp*
+temp?
+mongodb
+mongodb_new
